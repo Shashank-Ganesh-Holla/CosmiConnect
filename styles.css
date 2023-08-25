@@ -102,3 +102,14 @@
   color: white;
   transform: rotateY(180deg);
 }
+
+button {
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #testimonial {
+    display: none;
+  }
+}
